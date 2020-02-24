@@ -1,0 +1,13 @@
+  {
+    "name": "Leetcode Dark Mode",
+    "version": "1.0",
+    "description": "A dark mode for Leetcode",
+    "manifest_version": 2,
+
+    "content_scripts": [{
+        "css": ["style.css"],
+        "matches": ["https://leetcode.com/playground/*"]
+    }],
+
+    "icons": { "128": "ld128.png" }
+  }
