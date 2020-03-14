@@ -9,5 +9,5 @@
         "matches": ["https://leetcode.com/playground/*"]
     }],
 
-    "icons": { "128": "icon28.png" }
+    "icons": { "128": "icon128.png" }
   }
