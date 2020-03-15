@@ -1,37 +1,38 @@
-
 .playground-base > .row > .editor-base,
 .playground-base > .row > .console-base,
-.playground-base .toolbar-base 
-.playground-base .editor,
-.result > .console-header, 
+.playground-base .toolbar-base .playground-base .editor,
+.result > .console-header,
 .result > .output-base {
-    background-color: #141417 !important;
+  background-color: #141417 !important;
 }
 
 .CodeMirror-scroll {
-    background-color: #19191d !important;
+  background-color: #19191d !important;
 }
 
 .toolbar-bot-base {
-    border-top: 1px solid #0b0b0d !important;
+  border-top: 1px solid #0b0b0d !important;
+}
+.btn.btn-default,
+.btn.btn-default:active,
+.btn.btn-default:active:focus,
+.btn.btn-default:focus,
+.playground-base .row .console-base {
+  border-color: #0b0b0d !important;
 }
 
-.playground-base * {
-    border: none !important;
-}
-
-.output-base >  #output, 
+.output-base > #output,
 .console-input-base > textarea,
-.console-input-base > .btn  {
-    background: #212126 !important;
+.console-input-base > .btn {
+  background: #212126 !important;
 }
 
 .console-input-base *,
 .result-line > .output {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .playground-base .btn-default {
-    background: #343438 !important;
-    color: #fff !important;
+  background: #343438 !important;
+  color: #fff !important;
 }
